@@ -4,7 +4,8 @@
   "description": "Advent of Code 2021",
   "scripts": {
     "day1": "wireit",
-    "day2": "wireit"
+    "day2": "wireit",
+    "day3": "wireit"
   },
   "wireit": {
     "day1": {
@@ -14,6 +15,10 @@
     "day2": {
       "command": "ts-node ./src/day2",
       "files": ["src/day2/*", "tsconfig.json"]
+    },
+    "day3": {
+      "command": "ts-node ./src/day3",
+      "files": ["src/day3/*", "tsconfig.json"]
     }
   },
   "author": "Christophe Geers",
