@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "description": "Advent of Code 2021",
   "scripts": {
-    "day1": "wireit"
+    "day1": "wireit",
+    "day2": "wireit"
   },
   "wireit": {
     "day1": {
       "command": "ts-node ./src/day1",
       "files": ["src/day1/*", "tsconfig.json"]
+    },
+    "day2": {
+      "command": "ts-node ./src/day2",
+      "files": ["src/day2/*", "tsconfig.json"]
     }
   },
   "author": "Christophe Geers",
