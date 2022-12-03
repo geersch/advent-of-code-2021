@@ -11,7 +11,6 @@ const items: string[] = data.split(/\n/);
 /**
  * PART 1
  */
-
 let count1 = 0;
 let previous = 0;
 items.forEach((item: string, index) => {
